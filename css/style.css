@@ -1,0 +1,186 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    flex-direction: column;
+}
+
+.navigation-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: min-content;
+margin-bottom: 14px;
+
+}
+
+a{
+  text-decoration: none; 
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 14px 10px;
+}
+ul{
+  padding: 14px;
+}
+li{
+  list-style: none; 
+  display: inline;
+}
+
+.navigation{
+  background:white; 
+  height: 50px;
+}
+
+.title-header {
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: space-between;
+border-top: 1px solid silver;
+
+
+}
+
+#main-section {
+display:flex;
+flex-direction: row;
+color: grey
+
+}
+.review-sectionn {
+flex-basis: 100%;
+flex-grow: 0%;
+margin-bottom: 20px ;
+
+
+}
+.review-sectionn img {
+max-width: 90%;
+max-height: 110%;
+flex-direction:column;
+
+}
+
+.Message-up{
+flex-basis:100%;
+flex-grow: 0%;
+color: black;
+background-color: silver;
+max-height: 500px;
+
+}
+.contact-us{
+margin-left: 40px;
+margin-right: 40px;
+
+
+}
+.sales{
+margin-left: 40px;
+margin-right: 40px;
+color: grey
+
+
+}
+.form{
+flex-direction: column ;
+line-height :50px;
+margin-left: 40px;
+margin-right: 40px;
+
+
+}
+.tombol {
+margin-left: 40px;
+margin-right: 40px;
+background-color:black;
+color:white;
+height: 30px;
+width: 150px;
+}
+.img1  {
+width: 50px;
+    height: 50px;
+    justify-content: space-around; 
+    align-items: flex-end;
+    float: left;
+}
+.img2  {
+width: 40px;
+    height: 40px;
+    justify-content: space-around; 
+    align-items: flex-end;
+    float: left;
+    padding:2px;
+}
+
+.komen1 {
+
+color: black;
+display:flex;
+flex-direction: row;
+line-height: 12px;
+    
+
+}
+.komen2 {
+color: grey;
+display:flex;
+font-size: 14px;
+
+}
+.travel{
+color: black;
+line-height:20px;
+margin-bottom: 20px;
+height: min-content;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    float: left;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 2px;
+margin-bottom: 20px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.fade {
+animation-name: fade;
+animation-duration: 2s;
+
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .package{
+    font-size:40px;
+    text-align: center;
+    color: black;
+    background-color: silver;
+    padding: 50px;
+   background-repeat: no-repeat;
+    background-size: auto;
+
+  }
